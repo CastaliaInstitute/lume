@@ -17,7 +17,8 @@
     "portrait": "faculty/avatars/a-borges-sprite.png",
     "reflection": "What kinds of lives can a library hold that a single life cannot?",
     "id": "bdc62056-ddba-4928-a051-63cf6910e836",
-    "context": "In “The Gifts of Poetry,” Borges turns paradise into a library: a place where every possible book and life might be held."
+    "context": "In “The Gifts of Poetry,” Borges turns paradise into a library: a place where every possible book and life might be held.",
+    "ambience": "rain"
   },
   {
     "faculty_id": "a.confucius",
@@ -37,7 +38,8 @@
     "portrait": "",
     "reflection": "Where could you put something you learned into practice today?",
     "id": "30596b07-1a7c-4ae8-b22c-63277a1d92e5",
-    "context": "The opening of the Analects links study with practice, then with the pleasure of meeting friends who share the way."
+    "context": "The opening of the Analects links study with practice, then with the pleasure of meeting friends who share the way.",
+    "ambience": "wind"
   },
   {
     "faculty_id": "a.darwin",
@@ -58,7 +60,8 @@
     "portrait": "",
     "reflection": "What unseen conditions decide which lives can flourish?",
     "id": "6355073a-663a-407f-827e-16534f51e70c",
-    "context": "Darwin is building an argument from overproduction and competition in nature toward natural selection—not offering a general slogan about personal resilience."
+    "context": "Darwin is building an argument from overproduction and competition in nature toward natural selection—not offering a general slogan about personal resilience.",
+    "ambience": "forest"
   },
   {
     "faculty_id": "a.dickinson",
@@ -78,7 +81,8 @@
     "portrait": "",
     "reflection": "What image or phrase gives you a little hope when you need it?",
     "id": "2fa733a5-4ca9-48cf-9dba-1d94d42745a6",
-    "context": "Dickinson’s bird is inward: hope keeps singing in the soul even when the weather turns hard."
+    "context": "Dickinson’s bird is inward: hope keeps singing in the soul even when the weather turns hard.",
+    "ambience": "wind"
   },
   {
     "faculty_id": "a.einstein",
@@ -99,7 +103,8 @@
     "portrait": "",
     "reflection": "Where does a good question take you beyond what you already know?",
     "id": "f22a11df-217d-4675-a7df-445b52cc967b",
-    "context": "Einstein said this in an interview about scientific intuition, imagination, and testing ideas against evidence. The familiar one-line version leaves out the thought that follows."
+    "context": "Einstein said this in an interview about scientific intuition, imagination, and testing ideas against evidence. The familiar one-line version leaves out the thought that follows.",
+    "ambience": "ocean"
   },
   {
     "faculty_id": "a.joyce",
@@ -119,7 +124,8 @@
     "portrait": "",
     "reflection": "When has a mistake opened a door you did not expect?",
     "id": "16c607f7-8da4-4209-b614-279093db2e77",
-    "context": "In Ulysses, Stephen Dedalus recasts artistic “errors” as deliberate choices that can open new paths of discovery."
+    "context": "In Ulysses, Stephen Dedalus recasts artistic “errors” as deliberate choices that can open new paths of discovery.",
+    "ambience": "fire"
   },
   {
     "faculty_id": "a.marcusaurelius",
@@ -140,7 +146,8 @@
     "portrait": "",
     "reflection": "What would it mean to answer harm without repeating it?",
     "id": "8a9e5f07-a0fa-431a-9df5-60e9fd3e89f9",
-    "context": "In this translation Marcus is reflecting on how to respond to people who offend or need correction; the passage argues for pity and gentleness over anger."
+    "context": "In this translation Marcus is reflecting on how to respond to people who offend or need correction; the passage argues for pity and gentleness over anger.",
+    "ambience": "wind"
   },
   {
     "faculty_id": "a.plato",
@@ -161,7 +168,8 @@
     "portrait": "",
     "reflection": "What early influence is shaping a person before they can name it?",
     "id": "ab170388-4082-424f-8c7b-e70a61c46ae6",
-    "context": "Socrates is discussing stories told to children and the education of future guardians. “Beginning” here concerns the habits and character a society teaches."
+    "context": "Socrates is discussing stories told to children and the education of future guardians. “Beginning” here concerns the habits and character a society teaches.",
+    "ambience": "fire"
   },
   {
     "faculty_id": "a.shakespeare",
@@ -181,7 +189,8 @@
     "portrait": "faculty/avatars/a-shakespeare-sprite.png",
     "reflection": "What possibility in your life have you not explored yet?",
     "id": "2ee33620-b556-4310-b2a1-d935c1fbd3d1",
-    "context": "Hamlet’s question begins a meditation on suffering, action, and the fear of what may follow death."
+    "context": "Hamlet’s question begins a meditation on suffering, action, and the fear of what may follow death.",
+    "ambience": "ocean"
   },
   {
     "faculty_id": "a.thoreau",
@@ -201,7 +210,8 @@
     "portrait": "",
     "reflection": "What is essential enough to deserve more of your attention?",
     "id": "f7774db8-5b4b-460f-a67b-4a0abdb17019",
-    "context": "Thoreau explains his experiment at Walden: simplify daily life to see what is essential, and whether life can be lived deliberately."
+    "context": "Thoreau explains his experiment at Walden: simplify daily life to see what is essential, and whether life can be lived deliberately.",
+    "ambience": "forest"
   },
   {
     "faculty_id": "a.tolstoy",
@@ -221,7 +231,8 @@
     "portrait": "",
     "reflection": "What small difference makes each family’s story its own?",
     "id": "6bfedb5e-7af4-4a1e-ac32-24499486b230",
-    "context": "This is the novel’s famous opening sentence. The story soon tests the idea against one family’s private grief, desire, and social judgment."
+    "context": "This is the novel’s famous opening sentence. The story soon tests the idea against one family’s private grief, desire, and social judgment.",
+    "ambience": "rain"
   },
   {
     "faculty_id": "a.woolf",
@@ -242,6 +253,7 @@
     "portrait": "",
     "reflection": "How many voices disappear when authorship goes unrecorded?",
     "id": "d0853981-1095-40a6-ad70-4576dbd0e6d2",
-    "context": "Woolf imagines the anonymous poet as a woman whose work survived without her name. “For most of history, Anonymous was a woman” is a popular paraphrase, not her sentence."
+    "context": "Woolf imagines the anonymous poet as a woman whose work survived without her name. “For most of history, Anonymous was a woman” is a popular paraphrase, not her sentence.",
+    "ambience": "ocean"
   }
 ]

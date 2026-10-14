@@ -11,13 +11,14 @@
     "source": "gutenberg",
     "source_id": "55748",
     "tags": [
-      "libraries",
-      "famous"
+      "libraries"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=430c6251-d825-4d64-98db-cc4d82d8bcab",
     "portrait": "faculty/avatars/a-borges-sprite.png",
     "reflection": "What kinds of lives can a library hold that a single life cannot?",
-    "id": "bdc62056-ddba-4928-a051-63cf6910e836"
+    "id": "bdc62056-ddba-4928-a051-63cf6910e836",
+    "context": "In “The Gifts of Poetry,” Borges turns paradise into a library: a place where every possible book and life might be held.",
+    "ambience": "rain"
   },
   {
     "faculty_id": "a.confucius",
@@ -31,20 +32,21 @@
     "source": "gutenberg",
     "source_id": "3330",
     "tags": [
-      "education",
-      "famous"
+      "education"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=9962b78f-c902-405c-889d-6d53608bf71a",
     "portrait": "",
     "reflection": "Where could you put something you learned into practice today?",
-    "id": "30596b07-1a7c-4ae8-b22c-63277a1d92e5"
+    "id": "30596b07-1a7c-4ae8-b22c-63277a1d92e5",
+    "context": "The opening of the Analects links study with practice, then with the pleasure of meeting friends who share the way.",
+    "ambience": "wind"
   },
   {
     "faculty_id": "a.darwin",
     "faculty_name": "Charles Darwin",
     "book_id": "266c8e41-92fa-4863-bfb4-03e3f3afc3c4",
-    "quote_text": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
-    "passage_label": "On the Origin of Species",
+    "quote_text": "As many more individuals of each species are born than can possibly survive, a struggle for existence follows.",
+    "passage_label": "On the Origin of Species, Chapter III",
     "cfi": null,
     "book_title": "On the Origin of Species",
     "book_author": "Charles Darwin",
@@ -52,12 +54,14 @@
     "source_id": "1228",
     "tags": [
       "science",
-      "famous"
+      "nature"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=266c8e41-92fa-4863-bfb4-03e3f3afc3c4",
     "portrait": "",
-    "reflection": "What helps a person or a community respond well to change?",
-    "id": "6355073a-663a-407f-827e-16534f51e70c"
+    "reflection": "What unseen conditions decide which lives can flourish?",
+    "id": "6355073a-663a-407f-827e-16534f51e70c",
+    "context": "Darwin is building an argument from overproduction and competition in nature toward natural selection—not offering a general slogan about personal resilience.",
+    "ambience": "forest"
   },
   {
     "faculty_id": "a.dickinson",
@@ -71,33 +75,36 @@
     "source": "gutenberg",
     "source_id": "12242",
     "tags": [
-      "poetry",
-      "famous"
+      "poetry"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=ab71f15d-4f6b-4242-b1d4-a1368aa630a2",
     "portrait": "",
     "reflection": "What image or phrase gives you a little hope when you need it?",
-    "id": "2fa733a5-4ca9-48cf-9dba-1d94d42745a6"
+    "id": "2fa733a5-4ca9-48cf-9dba-1d94d42745a6",
+    "context": "Dickinson’s bird is inward: hope keeps singing in the soul even when the weather turns hard.",
+    "ambience": "wind"
   },
   {
     "faculty_id": "a.einstein",
     "faculty_name": "Albert Einstein",
-    "book_id": "51de3d99-8719-4238-b96b-9efd7a08ac06",
-    "quote_text": "Imagination is more important than knowledge.",
-    "passage_label": "On Science",
+    "book_id": null,
+    "quote_text": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+    "passage_label": "“What Life Means to Einstein,” 1929",
     "cfi": null,
-    "book_title": "Sidelights on Relativity",
+    "book_title": "The Saturday Evening Post interview",
     "book_author": "Albert Einstein",
-    "source": "gutenberg",
-    "source_id": "5001",
+    "source": "The Saturday Evening Post, 26 October 1929",
+    "source_id": "What Life Means to Einstein",
     "tags": [
       "science",
-      "famous"
+      "imagination"
     ],
-    "readest_url": "https://bibliotech.castalia.institute/read/?book=51de3d99-8719-4238-b96b-9efd7a08ac06",
+    "readest_url": "https://www.saturdayeveningpost.com/wp-content/uploads/satevepost/what_life_means_to_einstein.pdf",
     "portrait": "",
-    "reflection": "Where might imagination take you beyond what you already know?",
-    "id": "f22a11df-217d-4675-a7df-445b52cc967b"
+    "reflection": "Where does a good question take you beyond what you already know?",
+    "id": "f22a11df-217d-4675-a7df-445b52cc967b",
+    "context": "Einstein said this in an interview about scientific intuition, imagination, and testing ideas against evidence. The familiar one-line version leaves out the thought that follows.",
+    "ambience": "ocean"
   },
   {
     "faculty_id": "a.joyce",
@@ -111,20 +118,21 @@
     "source": "gutenberg",
     "source_id": "4300",
     "tags": [
-      "modernism",
-      "famous"
+      "modernism"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=abf8ba0b-845b-47a1-9e65-106e81b74660",
     "portrait": "",
     "reflection": "When has a mistake opened a door you did not expect?",
-    "id": "16c607f7-8da4-4209-b614-279093db2e77"
+    "id": "16c607f7-8da4-4209-b614-279093db2e77",
+    "context": "In Ulysses, Stephen Dedalus recasts artistic “errors” as deliberate choices that can open new paths of discovery.",
+    "ambience": "fire"
   },
   {
     "faculty_id": "a.marcusaurelius",
     "faculty_name": "Marcus Aurelius, Emperor of Rome, 121-180",
     "book_id": "509d7d43-eb31-47f9-b873-cf75e855dfc1",
-    "quote_text": "You have power over your mind—not outside events. Realize this, and you will find strength.",
-    "passage_label": "Meditations, Book II",
+    "quote_text": "The best kind of revenge is, not to become like unto them.",
+    "passage_label": "Meditations, Book VI",
     "cfi": null,
     "book_title": "Meditations",
     "book_author": "Marcus Aurelius",
@@ -132,18 +140,20 @@
     "source_id": "2680",
     "tags": [
       "stoicism",
-      "famous"
+      "ethics"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=509d7d43-eb31-47f9-b873-cf75e855dfc1",
     "portrait": "",
-    "reflection": "Which part of this moment is within your power to shape?",
-    "id": "8a9e5f07-a0fa-431a-9df5-60e9fd3e89f9"
+    "reflection": "What would it mean to answer harm without repeating it?",
+    "id": "8a9e5f07-a0fa-431a-9df5-60e9fd3e89f9",
+    "context": "In this translation Marcus is reflecting on how to respond to people who offend or need correction; the passage argues for pity and gentleness over anger.",
+    "ambience": "wind"
   },
   {
     "faculty_id": "a.plato",
     "faculty_name": "Plato",
     "book_id": "76643738-aae3-47dc-b617-f28535c57925",
-    "quote_text": "The beginning is the most important part of the work.",
+    "quote_text": "The beginning is the most important part of education. You know also that the beginning is the most important part of any work, especially in the case of a young and tender thing; for that is the time at which the character is being formed.",
     "passage_label": "The Republic, Book II",
     "cfi": null,
     "book_title": "The Republic",
@@ -152,12 +162,14 @@
     "source_id": "1497",
     "tags": [
       "philosophy",
-      "famous"
+      "education"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=76643738-aae3-47dc-b617-f28535c57925",
     "portrait": "",
-    "reflection": "What makes a beginning worth getting right?",
-    "id": "ab170388-4082-424f-8c7b-e70a61c46ae6"
+    "reflection": "What early influence is shaping a person before they can name it?",
+    "id": "ab170388-4082-424f-8c7b-e70a61c46ae6",
+    "context": "Socrates is discussing stories told to children and the education of future guardians. “Beginning” here concerns the habits and character a society teaches.",
+    "ambience": "fire"
   },
   {
     "faculty_id": "a.shakespeare",
@@ -171,13 +183,14 @@
     "source": "gutenberg",
     "source_id": "1524",
     "tags": [
-      "famous",
       "philosophy"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=e2cc5991-fbfe-4be2-9b71-6e81ad6c9020",
     "portrait": "faculty/avatars/a-shakespeare-sprite.png",
     "reflection": "What possibility in your life have you not explored yet?",
-    "id": "2ee33620-b556-4310-b2a1-d935c1fbd3d1"
+    "id": "2ee33620-b556-4310-b2a1-d935c1fbd3d1",
+    "context": "Hamlet’s question begins a meditation on suffering, action, and the fear of what may follow death.",
+    "ambience": "ocean"
   },
   {
     "faculty_id": "a.thoreau",
@@ -191,13 +204,14 @@
     "source": "gutenberg",
     "source_id": "205",
     "tags": [
-      "nature",
-      "famous"
+      "nature"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=d331bfad-0bc3-4f1d-a3b5-4bce7500c9af",
     "portrait": "",
     "reflection": "What is essential enough to deserve more of your attention?",
-    "id": "f7774db8-5b4b-460f-a67b-4a0abdb17019"
+    "id": "f7774db8-5b4b-460f-a67b-4a0abdb17019",
+    "context": "Thoreau explains his experiment at Walden: simplify daily life to see what is essential, and whether life can be lived deliberately.",
+    "ambience": "forest"
   },
   {
     "faculty_id": "a.tolstoy",
@@ -211,32 +225,35 @@
     "source": "gutenberg",
     "source_id": "1399",
     "tags": [
-      "fiction",
-      "famous"
+      "fiction"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=c4e3571c-3695-4cfc-b734-335f09e6fd71",
     "portrait": "",
     "reflection": "What small difference makes each family’s story its own?",
-    "id": "6bfedb5e-7af4-4a1e-ac32-24499486b230"
+    "id": "6bfedb5e-7af4-4a1e-ac32-24499486b230",
+    "context": "This is the novel’s famous opening sentence. The story soon tests the idea against one family’s private grief, desire, and social judgment.",
+    "ambience": "rain"
   },
   {
     "faculty_id": "a.woolf",
     "faculty_name": "Virginia Woolf",
     "book_id": "bca9eea2-d485-43cb-997e-24f917f47f99",
-    "quote_text": "For most of history, Anonymous was a woman.",
-    "passage_label": "A Room of One's Own",
+    "quote_text": "I would venture to guess that Anon, who wrote so many poems without signing them, was often a woman.",
+    "passage_label": "A Room of One’s Own, Chapter 3",
     "cfi": null,
-    "book_title": "A Room of One's Own",
+    "book_title": "A Room of One’s Own",
     "book_author": "Virginia Woolf",
     "source": "gutenberg",
     "source_id": "852",
     "tags": [
       "feminism",
-      "famous"
+      "literature"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=bca9eea2-d485-43cb-997e-24f917f47f99",
     "portrait": "",
-    "reflection": "Whose voice is missing from the histories we read?",
-    "id": "d0853981-1095-40a6-ad70-4576dbd0e6d2"
+    "reflection": "How many voices disappear when authorship goes unrecorded?",
+    "id": "d0853981-1095-40a6-ad70-4576dbd0e6d2",
+    "context": "Woolf imagines the anonymous poet as a woman whose work survived without her name. “For most of history, Anonymous was a woman” is a popular paraphrase, not her sentence.",
+    "ambience": "ocean"
   }
 ]
