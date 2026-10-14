@@ -32,6 +32,17 @@ CREATE TABLE IF NOT EXISTS public.lume_post_likes (
   PRIMARY KEY (post_id, member_id)
 );
 
+CREATE TABLE IF NOT EXISTS public.lume_peer_reviews (
+  post_id uuid NOT NULL REFERENCES public.lume_posts (id) ON DELETE CASCADE,
+  faculty_member_id uuid NOT NULL REFERENCES auth.users (id) ON DELETE CASCADE,
+  liked boolean NOT NULL DEFAULT false,
+  review text,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  updated_at timestamptz NOT NULL DEFAULT now(),
+  PRIMARY KEY (post_id, faculty_member_id),
+  CHECK (review IS NULL OR char_length(review) <= 2000)
+);
+
 CREATE INDEX IF NOT EXISTS idx_lume_post_likes_post_id
   ON public.lume_post_likes (post_id);
 
@@ -49,6 +60,7 @@ $$;
 ALTER TABLE public.lume_posts ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.lume_post_sources ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.lume_post_likes ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.lume_peer_reviews ENABLE ROW LEVEL SECURITY;
 
 DROP POLICY IF EXISTS lume_posts_public_read ON public.lume_posts;
 CREATE POLICY lume_posts_public_read ON public.lume_posts
@@ -80,13 +92,36 @@ CREATE POLICY lume_post_likes_read ON public.lume_post_likes
 DROP POLICY IF EXISTS lume_post_likes_insert ON public.lume_post_likes;
 CREATE POLICY lume_post_likes_insert ON public.lume_post_likes
   FOR INSERT TO authenticated WITH CHECK (
-    member_id = auth.uid() AND EXISTS (
+    member_id = auth.uid() AND NOT public.lume_caller_is_faculty() AND EXISTS (
       SELECT 1 FROM public.lume_posts p WHERE p.id = post_id AND p.status = 'published'
     )
   );
 DROP POLICY IF EXISTS lume_post_likes_delete ON public.lume_post_likes;
 CREATE POLICY lume_post_likes_delete ON public.lume_post_likes
   FOR DELETE TO authenticated USING (member_id = auth.uid());
+
+DROP POLICY IF EXISTS lume_peer_reviews_read ON public.lume_peer_reviews;
+CREATE POLICY lume_peer_reviews_read ON public.lume_peer_reviews
+  FOR SELECT USING (public.lume_caller_is_faculty());
+DROP POLICY IF EXISTS lume_peer_reviews_write ON public.lume_peer_reviews;
+CREATE POLICY lume_peer_reviews_write ON public.lume_peer_reviews
+  FOR INSERT TO authenticated WITH CHECK (
+    faculty_member_id = auth.uid() AND public.lume_caller_is_faculty() AND EXISTS (
+      SELECT 1 FROM public.lume_posts p WHERE p.id = post_id AND p.status = 'published'
+    )
+  );
+DROP POLICY IF EXISTS lume_peer_reviews_update ON public.lume_peer_reviews;
+CREATE POLICY lume_peer_reviews_update ON public.lume_peer_reviews
+  FOR UPDATE TO authenticated USING (
+    faculty_member_id = auth.uid() AND public.lume_caller_is_faculty()
+  ) WITH CHECK (
+    faculty_member_id = auth.uid() AND public.lume_caller_is_faculty()
+  );
+DROP POLICY IF EXISTS lume_peer_reviews_delete ON public.lume_peer_reviews;
+CREATE POLICY lume_peer_reviews_delete ON public.lume_peer_reviews
+  FOR DELETE TO authenticated USING (
+    faculty_member_id = auth.uid() AND public.lume_caller_is_faculty()
+  );
 
 CREATE OR REPLACE VIEW public.lume_post_like_counts AS
 SELECT p.id AS post_id, count(l.member_id)::integer AS like_count
@@ -99,4 +134,6 @@ COMMENT ON TABLE public.lume_posts IS
 COMMENT ON TABLE public.lume_post_sources IS
   'Ordered quotations from faculty_quotes that support a faculty-authored Lume post.';
 COMMENT ON TABLE public.lume_post_likes IS
-  'Peer and member likes on published Lume posts; signals for curation and future generation review.';
+  'Authenticated reader likes on published Lume posts; member preference signal for personalization.';
+COMMENT ON TABLE public.lume_peer_reviews IS
+  'Separate faculty-only likes and written reviews on colleagues’ published Lume posts; editorial signal, not member-preference training data.';
