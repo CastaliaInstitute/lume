@@ -16,7 +16,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=430c6251-d825-4d64-98db-cc4d82d8bcab",
     "portrait": "faculty/avatars/a-borges-sprite.png",
-    "reflection": "What kinds of lives can a library hold that a single life cannot?"
+    "reflection": "What kinds of lives can a library hold that a single life cannot?",
+    "id": "bdc62056-ddba-4928-a051-63cf6910e836"
   },
   {
     "faculty_id": "a.confucius",
@@ -35,7 +36,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=9962b78f-c902-405c-889d-6d53608bf71a",
     "portrait": "",
-    "reflection": "Where could you put something you learned into practice today?"
+    "reflection": "Where could you put something you learned into practice today?",
+    "id": "30596b07-1a7c-4ae8-b22c-63277a1d92e5"
   },
   {
     "faculty_id": "a.darwin",
@@ -54,7 +56,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=266c8e41-92fa-4863-bfb4-03e3f3afc3c4",
     "portrait": "",
-    "reflection": "What helps a person or a community respond well to change?"
+    "reflection": "What helps a person or a community respond well to change?",
+    "id": "6355073a-663a-407f-827e-16534f51e70c"
   },
   {
     "faculty_id": "a.dickinson",
@@ -73,7 +76,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=ab71f15d-4f6b-4242-b1d4-a1368aa630a2",
     "portrait": "",
-    "reflection": "What image or phrase gives you a little hope when you need it?"
+    "reflection": "What image or phrase gives you a little hope when you need it?",
+    "id": "2fa733a5-4ca9-48cf-9dba-1d94d42745a6"
   },
   {
     "faculty_id": "a.einstein",
@@ -92,7 +96,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=51de3d99-8719-4238-b96b-9efd7a08ac06",
     "portrait": "",
-    "reflection": "Where might imagination take you beyond what you already know?"
+    "reflection": "Where might imagination take you beyond what you already know?",
+    "id": "f22a11df-217d-4675-a7df-445b52cc967b"
   },
   {
     "faculty_id": "a.joyce",
@@ -111,7 +116,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=abf8ba0b-845b-47a1-9e65-106e81b74660",
     "portrait": "",
-    "reflection": "When has a mistake opened a door you did not expect?"
+    "reflection": "When has a mistake opened a door you did not expect?",
+    "id": "16c607f7-8da4-4209-b614-279093db2e77"
   },
   {
     "faculty_id": "a.marcusaurelius",
@@ -130,7 +136,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=509d7d43-eb31-47f9-b873-cf75e855dfc1",
     "portrait": "",
-    "reflection": "Which part of this moment is within your power to shape?"
+    "reflection": "Which part of this moment is within your power to shape?",
+    "id": "8a9e5f07-a0fa-431a-9df5-60e9fd3e89f9"
   },
   {
     "faculty_id": "a.plato",
@@ -149,7 +156,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=76643738-aae3-47dc-b617-f28535c57925",
     "portrait": "",
-    "reflection": "What makes a beginning worth getting right?"
+    "reflection": "What makes a beginning worth getting right?",
+    "id": "ab170388-4082-424f-8c7b-e70a61c46ae6"
   },
   {
     "faculty_id": "a.shakespeare",
@@ -168,7 +176,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=e2cc5991-fbfe-4be2-9b71-6e81ad6c9020",
     "portrait": "faculty/avatars/a-shakespeare-sprite.png",
-    "reflection": "What possibility in your life have you not explored yet?"
+    "reflection": "What possibility in your life have you not explored yet?",
+    "id": "2ee33620-b556-4310-b2a1-d935c1fbd3d1"
   },
   {
     "faculty_id": "a.thoreau",
@@ -187,7 +196,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=d331bfad-0bc3-4f1d-a3b5-4bce7500c9af",
     "portrait": "",
-    "reflection": "What is essential enough to deserve more of your attention?"
+    "reflection": "What is essential enough to deserve more of your attention?",
+    "id": "f7774db8-5b4b-460f-a67b-4a0abdb17019"
   },
   {
     "faculty_id": "a.tolstoy",
@@ -206,7 +216,8 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=c4e3571c-3695-4cfc-b734-335f09e6fd71",
     "portrait": "",
-    "reflection": "What small difference makes each family’s story its own?"
+    "reflection": "What small difference makes each family’s story its own?",
+    "id": "6bfedb5e-7af4-4a1e-ac32-24499486b230"
   },
   {
     "faculty_id": "a.woolf",
@@ -225,6 +236,7 @@
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=bca9eea2-d485-43cb-997e-24f917f47f99",
     "portrait": "",
-    "reflection": "Whose voice is missing from the histories we read?"
+    "reflection": "Whose voice is missing from the histories we read?",
+    "id": "d0853981-1095-40a6-ad70-4576dbd0e6d2"
   }
 ]
