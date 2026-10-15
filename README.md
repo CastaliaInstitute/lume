@@ -12,7 +12,7 @@ Member sign-in uses Castalia Google OAuth. Member likes and reading events sync 
 
 GitHub Pages publishes `docs/`; the custom domain `lume.castalia.institute` is configured for HTTPS. The GitHub Actions workflow deploys every push to `main`.
 
-The verified source material is exported in `data/quotes.json` and copied to `docs/data/quotes.json`. When refreshing it, copy both files. The portraits, ambience audio, Supabase client, and favicon are included under `docs/` so deployment does not depend on sibling workspaces. Transparent bust cutouts are placed low in alternating card corners, with the quote and source area kept clear. Topic-led abstract backgrounds and hand-drawn Emojinq glyph watermarks add atmosphere behind the text; the generated background assets are local to `docs/media/`.
+The verified source material is exported in `data/quotes.json` and copied to `docs/data/quotes.json`. When refreshing it, copy both files. The portraits, ambience audio, Supabase client, and favicon are included under `docs/` so deployment does not depend on sibling workspaces. Transparent bust cutouts are placed low in alternating card corners, with the quote and source area kept clear. Twelve individual passage illustrations give the featured posts distinct art; all twelve author busts are local transparent PNG cutouts, sized without stretching. Each post links to a reusable, playable musical motif in the Castalia Music Room. The SVG illustrations and busts live under `docs/media/art/` and `docs/faculty/busts/`.
 
 ## Faculty profiles and posts
 
