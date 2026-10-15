@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 32" fill="none" role="img" aria-label="The Threshold musical motif">
+  <g stroke="#f5f1e8" stroke-opacity=".48" stroke-width=".7">
+    <path d="M2 8h44M2 13h44M2 18h44M2 23h44M2 28h44"/>
+  </g>
+  <g stroke="#1db954" stroke-width="1.2" stroke-linecap="round">
+    <path d="M9 22V9M22 17V4M35 12V2"/>
+  </g>
+  <g fill="#bc8f2f">
+    <ellipse cx="8" cy="22" rx="2.8" ry="1.8" transform="rotate(-18 8 22)"/>
+    <ellipse cx="21" cy="17" rx="2.8" ry="1.8" transform="rotate(-18 21 17)"/>
+    <ellipse cx="34" cy="12" rx="2.8" ry="1.8" transform="rotate(-18 34 12)"/>
+  </g>
+  <path d="M40 4v20" stroke="#1db954" stroke-opacity=".55" stroke-width=".8" stroke-dasharray="1.4 2"/>
+</svg>
