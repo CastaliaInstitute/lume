@@ -1,4 +1,18 @@
 (() => {
+  const busts = {
+    'a.borges': 'faculty/busts/jorge-luis-borges.png',
+    'a.confucius': 'faculty/busts/confucius.png',
+    'a.darwin': 'faculty/busts/charles-darwin.png',
+    'a.dickinson': 'faculty/busts/emily-dickinson.png',
+    'a.einstein': 'faculty/busts/albert-einstein.png',
+    'a.joyce': 'faculty/busts/james-joyce.png',
+    'a.marcusaurelius': 'faculty/busts/marcus-aurelius.png',
+    'a.plato': 'faculty/busts/plato.png',
+    'a.shakespeare': 'faculty/busts/william-shakespeare.png',
+    'a.thoreau': 'faculty/busts/henry-david-thoreau.png',
+    'a.tolstoy': 'faculty/busts/leo-tolstoy.png',
+    'a.woolf': 'faculty/busts/virginia-woolf.png',
+  };
   const motifs = {
     threshold: { name: 'The Threshold', family: 'Lyrical' },
     return: { name: 'The Return', family: 'Call & response' },
@@ -49,5 +63,5 @@
     return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" fill="none"><defs><radialGradient id="glow"><stop stop-color="${a}" stop-opacity=".42"/><stop offset="1" stop-color="${b}" stop-opacity="0"/></radialGradient><linearGradient id="fade" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#151713" stop-opacity=".02"/><stop offset=".55" stop-color="#151713" stop-opacity=".12"/><stop offset="1" stop-color="#151713" stop-opacity=".42"/></linearGradient></defs><ellipse cx="${cx}" cy="${cy}" rx="${r + 230}" ry="${r + 350}" fill="url(#glow)"/><g transform="rotate(${angle} ${cx} ${cy})">${image}</g><g>${small.join('')}</g><rect width="1080" height="1920" fill="url(#fade)"/></svg>`;
   };
   const dataUri = (svg) => `data:image/svg+xml,${encodeURIComponent(svg)}`;
-  window.lumeArt = { motifs, generate, themeFor, dataUri };
+  window.lumeArt = { motifs, busts, generate, themeFor, dataUri };
 })();

@@ -146,8 +146,7 @@
   function citationLabel(q){const title=q.book_title||'Selected writings';let section=(q.passage_label||'').trim();if(section.toLowerCase()===title.toLowerCase())section='';else if(section.toLowerCase().startsWith(title.toLowerCase())){section=section.slice(title.length).replace(/^[\s,;:—–-]+/,'');if(/^or\b/i.test(section))section=''}const citation=section?`${title} · ${section}`:title;return q.translator?`${citation} · trans. ${q.translator}`:citation}
   function facultyUrl(q){return q.faculty_id?`https://bibliotech.castalia.institute/shelf/?faculty=${encodeURIComponent(q.faculty_id)}`:null}
   function profileUrl(id){return `profile.html?faculty=${encodeURIComponent(id)}`}
-  const staticBusts={'a.borges':'faculty/busts/jorge-luis-borges.png','a.confucius':'faculty/busts/confucius.png','a.darwin':'faculty/busts/charles-darwin.png','a.dickinson':'faculty/busts/emily-dickinson.png','a.einstein':'faculty/busts/albert-einstein.png','a.joyce':'faculty/busts/james-joyce.png','a.marcusaurelius':'faculty/busts/marcus-aurelius.png','a.plato':'faculty/busts/plato.png','a.shakespeare':'faculty/busts/william-shakespeare.png','a.thoreau':'faculty/busts/henry-david-thoreau.png','a.tolstoy':'faculty/busts/leo-tolstoy.png','a.woolf':'faculty/busts/virginia-woolf.png'};
-  const facultyBusts={...staticBusts};
+  const facultyBusts=window.lumeArt.busts;
   function bustFor(id){return facultyBusts[id]||''}
   const motifCatalog={threshold:'The Threshold',return:'The Return',suspended:'Suspended light',footsteps:'Footsteps at dusk','open-sky':'Open sky',spark:'Bright spark'};
   function musicMotifId(q){const id=q.music_motif_id||q.music_motif||'threshold';return window.lumeArt.motifs[id]?id:'threshold'}
