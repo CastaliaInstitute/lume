@@ -37,3 +37,15 @@ python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 Open `http://127.0.0.1:8000/editorial/create.html` for drafts or `http://127.0.0.1:8000/docs/` for the public-site preview.
+
+## Local FLUX Schnell backgrounds
+
+On Apple Silicon, install the MLX generator once with `uv tool install --python 3.13 mflux`. The first generation downloads a public, 4-bit FLUX.1 Schnell checkpoint (about 9.6 GB) into the Hugging Face cache; no hosted image-generation API or per-image fee is involved. Generate a portrait background with:
+
+```sh
+tools/generate-lume-background.sh \
+  "A quiet symbolic forest at dusk, painterly, rich emerald and muted gold, open dark space through the center for legible quotation text, no words, no people" \
+  /tmp/lume-forest.png 42
+```
+
+The default output is 768×1360 at four steps. Set `LUME_FLUX_WIDTH`, `LUME_FLUX_HEIGHT`, or `LUME_FLUX_STEPS` to change those defaults, and `MFLUX_GENERATE` if the MFLUX executable is outside `PATH`. Choose the output in the private composer’s generated background field; it optimizes the image and stores it with the local draft and JSON export. The FLUX model is Apache-2.0; the quantized checkpoint is a community MFLUX-format conversion. The SVG composer remains available for quick, repeatable drafts.
