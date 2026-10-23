@@ -105,6 +105,7 @@ Deno.serve(async (request) => {
   const prompt = typeof body.prompt === 'string' ? body.prompt.trim() : ''
   if (prompt.length < 8 || prompt.length > 1000) return json({ error: 'Artwork direction must be between 8 and 1000 characters.' }, 400, origin)
   const styles: Record<string, string> = {
+    explore: 'an original, art-directed visual language chosen to best serve the literary idea; it may be photorealistic, painterly, cinematic, documentary, archival, surreal, symbolic, or a thoughtful hybrid',
     cinematic: 'cinematic fine-art still, layered atmosphere, dramatic natural light, nuanced film color grading, carefully composed foreground and deep background',
     photoreal: 'photorealistic editorial photography, believable materials and light, fine photographic detail, natural lens depth, subtle grain and tactile surfaces',
     documentary: 'observational documentary photography, candid human scale, natural available light, lived-in details, honest textures, composed like a still from an art-house film',
@@ -118,15 +119,15 @@ Deno.serve(async (request) => {
     'dreamlike-3d': 'dreamlike sculptural 3D artwork, physically rich materials, atmospheric volumetric light, elegant impossible architecture, intricate surfaces, cinematic depth',
     symbolic: 'symbolic abstract art, complex organic forms, layered translucent shapes, refined visual metaphor, rich material detail and nuanced light',
   }
-  const style = typeof body.style === 'string' && styles[body.style] ? body.style : 'cinematic'
+  const style = typeof body.style === 'string' && styles[body.style] ? body.style : 'explore'
 
   const title = typeof body.title === 'string' ? body.title.trim().slice(0, 160) : ''
   const author = typeof body.author === 'string' ? body.author.trim().slice(0, 120) : ''
   const fullPrompt = [
     `Create a beautiful, original background image for a literary short-form video post. Art style: ${styles[style]}.`,
-    'Portrait 9:16 composition with foreground, middle distance, and deep background; combine several meaningful visual details into a coherent scene with a distinct point of view.',
+    'Portrait 9:16 composition with foreground, middle distance, and deep background; combine several meaningful visual details into a coherent scene with a distinct point of view. Prefer complex, specific imagery over simple line drawings or generic gradients.',
     'Use expressive, high-quality material detail and atmospheric light. Avoid sparse vector line art, flat iconography, generic gradients, and stock-template composition.',
-    'Keep the central and upper-left areas relatively low contrast and uncluttered for legible white editorial text overlays, while retaining visual interest throughout the frame.',
+    'Compose for animated text overlays: keep the central-left reading area legible but visually alive, with contrast and detail distributed across the frame. Use depth, texture, atmosphere, and a clear focal idea rather than leaving a large empty text void.',
     'No text, letters, captions, typography, logos, watermarks, frames, or split panels.',
     title ? `Post theme: ${title}.` : '',
     author ? `Literary voice: ${author}.` : '',
