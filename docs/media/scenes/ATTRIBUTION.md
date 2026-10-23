@@ -11,4 +11,13 @@ These photographic backgrounds are served from Unsplash Image CDN and follow the
 - `scene-07.webp`: Unsplash photo 1472214103451-9374bd1c798e
 - `scene-08.webp`: Unsplash photo 1490730141103-6cac27aaab94
 
-Images were downloaded from `images.unsplash.com` in portrait 9:16 crops and converted to WebP. Their CDN image IDs are embedded in the source URL structure.
+The following original background scenes were generated for Lume with OpenAI image generation on 2026-10-23. They contain no source-photo material and require no third-party image attribution.
+
+- `scene-09.webp`: Photoreal old-growth redwood forest and creek after rain.
+- `scene-10.webp`: Impressionist observatory beneath a star-filled sky.
+- `scene-11.webp`: Layered seascape and archival botanical collage.
+- `scene-12.webp`: Photoreal macro botanical greenhouse scene.
+- `scene-13.webp`: Symbolic 3D glass threshold in a dark desert.
+- `scene-14.webp`: Documentary-style rainy city street at blue hour.
+
+Unsplash source images were downloaded from `images.unsplash.com` in portrait 9:16 crops and converted to WebP. Their CDN image IDs are embedded in the source URL structure. AI-generated source images were also composed in portrait 9:16 and optimized as WebP.
