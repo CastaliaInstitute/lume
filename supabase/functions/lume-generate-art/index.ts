@@ -48,18 +48,27 @@ Deno.serve(async (request) => {
     return json({ error: 'fal generation is limited to signed-in faculty and editors.' }, 403, origin)
   }
 
-  let body: { prompt?: unknown; title?: unknown; author?: unknown }
+  let body: { prompt?: unknown; style?: unknown; title?: unknown; author?: unknown }
   try { body = await request.json() } catch { return json({ error: 'Request body must be JSON.' }, 400, origin) }
   const contentLength = Number(request.headers.get('Content-Length') || 0)
   if (contentLength > 8000) return json({ error: 'Request is too large.' }, 413, origin)
   const prompt = typeof body.prompt === 'string' ? body.prompt.trim() : ''
   if (prompt.length < 8 || prompt.length > 1000) return json({ error: 'Artwork direction must be between 8 and 1000 characters.' }, 400, origin)
+  const styles: Record<string, string> = {
+    cinematic: 'cinematic fine-art still, layered atmosphere, dramatic natural light, nuanced film color grading',
+    photoreal: 'photorealistic editorial photography, believable materials and light, fine photographic detail, natural lens depth',
+    painterly: 'expressive fine-art painting, visible brushwork, layered pigments, confident painterly composition',
+    collage: 'surreal mixed-media collage, layered photographic textures, torn paper, unexpected symbolic juxtapositions',
+    illustration: 'rich editorial illustration, sophisticated drawing, tactile print texture, nuanced color and shape',
+    symbolic: 'symbolic abstract art, complex organic forms, layered translucent shapes, refined visual metaphor',
+  }
+  const style = typeof body.style === 'string' && styles[body.style] ? body.style : 'cinematic'
 
   const title = typeof body.title === 'string' ? body.title.trim().slice(0, 160) : ''
   const author = typeof body.author === 'string' ? body.author.trim().slice(0, 120) : ''
   const fullPrompt = [
-    'Create a beautiful, original, symbolic background image for an literary short-form video post.',
-    'Portrait 9:16 composition, rich painterly detail, expressive atmosphere, cinematic lighting.',
+    `Create a beautiful, original background image for a literary short-form video post. Art style: ${styles[style]}.`,
+    'Portrait 9:16 composition with rich detail and a distinct visual point of view.',
     'Keep the central and upper-left areas relatively low contrast and uncluttered for legible white editorial text overlays.',
     'No text, letters, captions, typography, logos, watermarks, frames, or split panels.',
     title ? `Post theme: ${title}.` : '',

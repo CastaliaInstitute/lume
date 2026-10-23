@@ -14,12 +14,12 @@
       "libraries"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=430c6251-d825-4d64-98db-cc4d82d8bcab",
-    "portrait": "faculty/avatars/a-borges-sprite.png",
+    "portrait": "faculty/avatars/a-borges-sprite.webp",
     "reflection": "What kinds of lives can a library hold that a single life cannot?",
     "id": "bdc62056-ddba-4928-a051-63cf6910e836",
     "context": "In “The Gifts of Poetry,” Borges turns paradise into a library: a place where every possible book and life might be held.",
     "ambience": "rain",
-    "artwork": "media/art/jorge-luis-borges.svg",
+    "artwork": "media/art/jorge-luis-borges.webp",
     "music_motif": "threshold"
   },
   {
@@ -42,7 +42,7 @@
     "id": "30596b07-1a7c-4ae8-b22c-63277a1d92e5",
     "context": "The opening of the Analects links study with practice, then with the pleasure of meeting friends who share the way.",
     "ambience": "wind",
-    "artwork": "media/art/confucius.svg",
+    "artwork": "media/art/confucius.webp",
     "music_motif": "suspended"
   },
   {
@@ -66,7 +66,7 @@
     "id": "6355073a-663a-407f-827e-16534f51e70c",
     "context": "Darwin is building an argument from overproduction and competition in nature toward natural selection—not offering a general slogan about personal resilience.",
     "ambience": "forest",
-    "artwork": "media/art/charles-darwin.svg",
+    "artwork": "media/art/charles-darwin.webp",
     "music_motif": "open-sky"
   },
   {
@@ -89,7 +89,7 @@
     "id": "2fa733a5-4ca9-48cf-9dba-1d94d42745a6",
     "context": "Dickinson’s bird is inward: hope keeps singing in the soul even when the weather turns hard.",
     "ambience": "wind",
-    "artwork": "media/art/emily-dickinson.svg",
+    "artwork": "media/art/emily-dickinson.webp",
     "music_motif": "return"
   },
   {
@@ -113,7 +113,7 @@
     "id": "f22a11df-217d-4675-a7df-445b52cc967b",
     "context": "Einstein said this in an interview about scientific intuition, imagination, and testing ideas against evidence. The familiar one-line version leaves out the thought that follows.",
     "ambience": "ocean",
-    "artwork": "media/art/albert-einstein.svg",
+    "artwork": "media/art/albert-einstein.webp",
     "music_motif": "spark"
   },
   {
@@ -136,7 +136,7 @@
     "id": "16c607f7-8da4-4209-b614-279093db2e77",
     "context": "In Ulysses, Stephen Dedalus recasts artistic “errors” as deliberate choices that can open new paths of discovery.",
     "ambience": "fire",
-    "artwork": "media/art/james-joyce.svg",
+    "artwork": "media/art/james-joyce.webp",
     "music_motif": "footsteps"
   },
   {
@@ -160,7 +160,7 @@
     "id": "8a9e5f07-a0fa-431a-9df5-60e9fd3e89f9",
     "context": "In this translation Marcus is reflecting on how to respond to people who offend or need correction; the passage argues for pity and gentleness over anger.",
     "ambience": "wind",
-    "artwork": "media/art/marcus-aurelius.svg",
+    "artwork": "media/art/marcus-aurelius.webp",
     "music_motif": "threshold"
   },
   {
@@ -185,7 +185,7 @@
     "context": "Socrates is discussing stories told to children and how early impressions shape a developing character.",
     "ambience": "fire",
     "translator": "Benjamin Jowett",
-    "artwork": "media/art/plato.svg",
+    "artwork": "media/art/plato.webp",
     "music_motif": "suspended"
   },
   {
@@ -204,12 +204,12 @@
       "existential"
     ],
     "readest_url": "https://bibliotech.castalia.institute/read/?book=e2cc5991-fbfe-4be2-9b71-6e81ad6c9020",
-    "portrait": "faculty/avatars/a-shakespeare-sprite.png",
+    "portrait": "faculty/avatars/a-shakespeare-sprite.webp",
     "reflection": "What helps you stay with a question that has no easy answer?",
     "id": "2ee33620-b556-4310-b2a1-d935c1fbd3d1",
     "context": "Hamlet’s question begins a meditation on suffering, action, and the fear of what may follow death.",
     "ambience": "ocean",
-    "artwork": "media/art/william-shakespeare.svg",
+    "artwork": "media/art/william-shakespeare.webp",
     "music_motif": "open-sky"
   },
   {
@@ -232,7 +232,7 @@
     "id": "f7774db8-5b4b-460f-a67b-4a0abdb17019",
     "context": "Thoreau explains his experiment at Walden: simplify daily life to see what is essential, and whether life can be lived deliberately.",
     "ambience": "forest",
-    "artwork": "media/art/henry-david-thoreau.svg",
+    "artwork": "media/art/henry-david-thoreau.webp",
     "music_motif": "return"
   },
   {
@@ -255,7 +255,7 @@
     "id": "6bfedb5e-7af4-4a1e-ac32-24499486b230",
     "context": "This is the novel’s famous opening sentence. The story soon tests the idea against one family’s private grief, desire, and social judgment.",
     "ambience": "rain",
-    "artwork": "media/art/leo-tolstoy.svg",
+    "artwork": "media/art/leo-tolstoy.webp",
     "music_motif": "footsteps"
   },
   {
@@ -279,7 +279,7 @@
     "id": "d0853981-1095-40a6-ad70-4576dbd0e6d2",
     "context": "Woolf imagines the anonymous poet as a woman whose work survived without her name. “For most of history, Anonymous was a woman” is a popular paraphrase, not her sentence.",
     "ambience": "ocean",
-    "artwork": "media/art/virginia-woolf.svg",
+    "artwork": "media/art/virginia-woolf.webp",
     "music_motif": "spark"
   }
 ]
