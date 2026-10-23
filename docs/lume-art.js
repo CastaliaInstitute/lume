@@ -1,5 +1,7 @@
 (() => {
   const busts = {
+    'a.bradbury2': 'faculty/busts/ray-bradbury.webp',
+    'a.bradbury2': 'faculty/busts/ray-bradbury.webp',
     'a.borges': 'faculty/busts/jorge-luis-borges-profile-right.webp',
     'a.baldwin20': 'faculty/busts/james-baldwin.webp',
     'a.baldwin21': 'faculty/busts/james-baldwin.webp',
@@ -45,7 +47,7 @@
     'a.vonnegut2': 'faculty/busts/kurt-vonnegut.webp',
     'a.vonnegut3': 'faculty/busts/kurt-vonnegut.webp',
   };
-  const bustFacing = { 'a.dick6': 'left', 'a.jung4': 'left', 'a.jung5': 'left', 'a.keynes': 'front', 'a.mccarthy8': 'front', 'a.mccarthy9': 'front' };
+  const bustFacing = { 'a.bradbury2': 'left', 'a.dick6': 'left', 'a.jung4': 'left', 'a.jung5': 'left', 'a.keynes': 'front', 'a.mccarthy8': 'front', 'a.mccarthy9': 'front' };
   const motifs = {
     threshold: { name: 'The Threshold', family: 'Lyrical' },
     return: { name: 'The Return', family: 'Call & response' },
