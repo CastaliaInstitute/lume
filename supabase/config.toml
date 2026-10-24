@@ -1,1 +1,4 @@
 project_id = "pilmscrodlitdrygabvo"
+
+[functions.lume-create-post]
+verify_jwt = false
